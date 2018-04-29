@@ -1,0 +1,42 @@
+/* add your CSS here */
+#interesting-fact{
+  font-style: italic;
+}
+
+#container{
+  border-style: solid;
+  border-color: brown;
+  border-width:10px;
+  background-color: #BDB76B;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+#card{
+  border-style: solid;
+  color: brown;
+  background-color: #F0E68C;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.50;
+}
+span{
+  font-weight: bold;
+}
+#facts{
+  list-style-type: none;
+}
+h1{
+  padding:10px;
+  background-color:	#FFFFE0;
+  color: brown; 
+  border-style: double;
+  border-radius: 20px;
+  padding-left: 60px; 
+  padding-right: 40px;
+  padding-top: 10px;
+}
+img{
+  padding-bottom:10px;
+}
