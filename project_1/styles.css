@@ -6,20 +6,28 @@
 #container{
   border-style: solid;
   border-color: brown;
-  border-width:10px;
+  border-width: 5px;
   background-color: #BDB76B;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  padding: 10px;
+  
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
 #card{
   border-style: solid;
+  border-color: brown;
   color: brown;
   background-color: #F0E68C;
-  margin: 0;
-  padding: 20px;
-  line-height: 1.50;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 1.5;
+  font-size: 85%;
 }
 span{
   font-weight: bold;
@@ -28,15 +36,24 @@ span{
   list-style-type: none;
 }
 h1{
-  padding:10px;
-  background-color:	#FFFFE0;
+  text-align: center;
   color: brown; 
-  border-style: double;
-  border-radius: 20px;
-  padding-left: 60px; 
-  padding-right: 40px;
-  padding-top: 10px;
+  padding-left: auto; 
+  padding-right: auto;
+  padding-top: 10px
+  padding-bottom:10px;
 }
 img{
-  padding-bottom:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body{
+  max-width: 350px;
+  min-width: 350px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
 }
