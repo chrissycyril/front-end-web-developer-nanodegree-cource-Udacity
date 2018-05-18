@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	 background-color: #fefbd8;
+	 font-family: Arial;
+}
+
+.main {
+  margin:12px;
+  height:100%;
+  width:100%;
+}
+
+.header{
+  line-height: 15px;
+  margin:12px;
+  border-bottom: 5px solid #7d97ad;
+
+}
+
+.picture{
+  width: 100%;
+  margin:12px;
+  position: relative;
+  background-size: cover;
+  height: 100%; 
+}
+
+ article {
+  border: 1px solid #7d97ad;
+  font-family: Arial;
+  line-height: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  color: #FFFFFF;
+  padding: 1em
+}
+
+.subheading{
+	margin: 12px;
+}
+ img{
+  width:100%;
+ }
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+ 
+
+.content {
+    background-color: #7d97ad;
+    padding: 12px;
+}
+
+.project_name{
+  text-align:center;
+}
+
+footer{
+  margin:12px;
+  border-top: 3px solid #000000;
+  padding: 1em;
+  color: #FFFFFF;
+  clear:left;
+  text-align: center;
+}
+
+.mail{
+	color:#000000;
+	padding:5px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;;
+  color: #FFFFFF;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: #FFFFFF;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+    article{
+    	font-size:50%;
+    	line-height: 10px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
